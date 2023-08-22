@@ -38,8 +38,8 @@ import Card from 'react-bootstrap/Card';
         //   </Table>
         
   
-    <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="/Images/Profile.png" style={{padding:'10px'}} />
+    <Card style={{ width: '18rem' ,bg:'red'}}>
+      <Card.Img variant="top" src="/Images/Profile.png" style={{padding:'10px' , colour:"green"}} />
       <Card.Body>
         <Card.Title>Employee Data</Card.Title>
         <Card.Text>Employee Id :
